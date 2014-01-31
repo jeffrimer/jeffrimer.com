@@ -28,5 +28,5 @@ handlers:
 - url: /(.*?)
   script: \1
 
-- url: /(.*?)
+- url: /
   script: index.php
