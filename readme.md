@@ -1,3 +1,6 @@
+Website at jeffrimer.com.  This readme is from the HTML 5 Boilerplate, I just haven't removed it yet.
+
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.
