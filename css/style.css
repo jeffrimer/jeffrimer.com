@@ -218,8 +218,8 @@ td { vertical-align: top; }
    ========================================================================== */
 
 * { margin: 0; padding: 0; }
-body { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 24px; background: url(img/bg-content.png); }
-h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+body { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 24px; background: #f5f5f5; }
+h1 { margin: 0 0 5px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: normal; letter-spacing: -1px; }
 h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
 h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
 p { margin: 0 0 15px 0; color: #222; }
@@ -255,9 +255,9 @@ div.portfolioListHead a {
 #pic { float: right; margin: -30px 0 0 0; }
 
 /* header */
-header { background: url(img/bg-header.png) 0 0 repeat; width 100%; min-width: 980px; height: 150px; }
-#innerHeader { width: 980px; margin: 0 auto; }
-#banner { background: url(img/banner-new.png) 240px 7px no-repeat; height: 100px; }
+header { background: url(img/bg-footer.png) 0 0 repeat; width 100%; min-width: 980px; height: 150px; border-bottom: 1px solid #336699; }
+#innerHeader { width: 940px; margin: 0 auto; padding: 0 20px }
+#banner { background: url(img/banner-new.png) 0 10px no-repeat; height: 100px; }
 
 /* rollover navigation bar */
 #nav { width: 100%; background-color: #336699; padding: 0; margin: 20px 0 0 0; float: left; }
@@ -267,7 +267,6 @@ header { background: url(img/bg-header.png) 0 0 repeat; width 100%; min-width: 9
 
 /* footer */
 footer {
-  background: url(img/bg-footer.png) 0 0 repeat;
   width: 100%;
   min-width: 980px;
   height: 75px;
@@ -276,7 +275,8 @@ footer {
 #innerFooter { margin: 0 auto; width: 980px; text-align: center; }
 footer p { margin-top: 25px; }
 /* text */
-#objective { width: 500px; float: left; padding-top: 25px;}
+#content.resume { padding-top: 0; }
+#objective { width: 500px; float: left; padding-top: 40px;}
 #objective p { font-family: Georgia, Serif; color: #666; }
 
 /* content */
@@ -284,11 +284,7 @@ footer p { margin-top: 25px; }
   min-height: 525px;
   margin: 0 auto;
   width: 940px;
-  padding: 0 20px;
-}
-
-#main {
-  background: #999 url(img/bg-content.png) 0 0 repeat;
+  padding: 40px 20px 0;
 }
 
 /* form styles */

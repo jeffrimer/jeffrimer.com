@@ -19,6 +19,7 @@
   <?php include('includes/php/header.php'); ?>
   <div id="main">
    <div id="content">
+      <h1>Drop me a line.</h1>
       <p class="top">If interested in contacting me, please fill out the small form below. I will return your message as soon as time permits. Thank you!</p>
       <form action="contact.php" method="post" id="contact">
         <div class="hideOnSubmit">

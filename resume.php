@@ -23,9 +23,10 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <?php include('includes/php/header.php'); ?>
   <div id="main">
-    <div id="content">
+    <div id="content" class="resume">
       <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
         <div id="objective">
+          <h1>A bit about me:</h1>
           <p>I am a graduate of Macomb Community College with an Associates of Applied Science in Computer Programming with certifications in C++ and Database programming. I love to learn and am constantly reading, researching and experimenting to expand my knowledge and experiences.</p>
         </div>
 
@@ -48,7 +49,6 @@
             <h2>Macomb Community College - Warren, MI</h2>
             <p style="margin-bottom: 0;">IT Programming Associates of Applied Science<br />
             <ul>
-              <li>Currently working towards earning Web Development certification</li>
               <li>Obtained skill-based certification in C++ Programming and certification in Database Programming</li>
               <li>Worked on database design and implementation project for Federal Innovation Grant – including aiding in designing ERD, writing SQL for tables, and creating Access database and forms</li>
             </ul>
